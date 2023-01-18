@@ -67,7 +67,9 @@ header > a{
     display: flex;
     justify-content: center;
 }
-
+nav ol li a {
+    color: #292929;
+}
 .navbar{
     justify-content: center;
     background: #E8F8F5;
@@ -105,7 +107,9 @@ header > a{
 main{
     padding-bottom: 30px;
 }
-
+h3 {
+    color: #292929;
+}
 .nuevo-h1 {
     text-align: center;
 }
@@ -212,6 +216,10 @@ main{
 
 tbody tr:nth-child(even) { background: #E8F8F5 }
 /* PIE DE PÁGINA  */
+
+.ver-mas a {
+    background-color: #DEDEDE;
+}
 
 .container-fluid a {
     color: #1D6355;
