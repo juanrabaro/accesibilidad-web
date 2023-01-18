@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
     <head>
         <meta charset="UTF-8">
         <title>Exposiciones · La Galería Ecléctica</title>
@@ -20,11 +20,11 @@
                 </div>
             </div>
             <a href="index.html">
-                <img src="assets/img/logo.png" />
+                <img alt="logo-inicio" src="assets/img/logo.png" />
             </a>
             <nav class="navbar navbar-expand-lg navbar-light bg-verde-claro">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>esto es para que no salte un error rojo por no tener valor supongo
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
@@ -56,7 +56,7 @@
             <section id="proximas" class="actividades container">
                 <div class="fila align-izquierda">
                     <div class="tres-columnas">
-                        <h4>Del 2 de diciembre de 2018 hasta el 17 de abril de 2019</h4>
+                        <h3>Del 2 de diciembre de 2018 hasta el 17 de abril de 2019</h3>
                         <button class="btn btn-secondary">Comprar entradas</button>
                     </div>
                     <div class="dos-tres-columnas">
@@ -122,24 +122,26 @@
                     08018 Barcelona
                 </a>
                 <div class="rrss">
-                    <a href="#"><i class="fab fa-facebook-square"></i></a>
-                    <a href="#"><i class="fab fa-twitter-square"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-youtube-square"></i></a>
+                    <a href="#"><i class="fab fa-facebook-square"></i>Facebook</a>
+                    <a href="#"><i class="fab fa-twitter-square"></i>Twitter</a>
+                    <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+                    <a href="#"><i class="fab fa-youtube-square"></i>Youtube</a>
                 </div>
+        
                 <form>
                     <h4>Suscríbete a nuestra Newsletter</h4>
                     <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Enter email">
+                        <label for="form-control">Escribe tu gmail aquí</label>
+                        <input type="email" id="form-control" class="form-control" placeholder="Enter email">
                     </div>
                     <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input">
-                        <label>Acepto la <a href="#">Política de privacidad </a></label>
+                        <input type="checkbox" id="form-check-input" class="form-check-input">
+                        <label for="form-check-input" class="form-check-label">Acepto la <a href="#">Política de privacidad </a></label>
                     </div>
                     <button type="submit" class="btn btn-secondary">Registrarme</button>
                 </form>
                 <a href="index.html" class="logo">
-                    <img src="assets/img/logo.png"/>
+                    <img alt="imagen-logo" src="assets/img/logo.png"/>
                 </a>
                 <nav class="navbar navbar-expand-lg navbar-light bg-verde-claro">
                     <div class="navbar-nav">
@@ -149,15 +151,17 @@
                         <a class="nav-item nav-link" href="#">Cookies</a>
                     </div>
                 </nav>
+        
             </div>
             <div class="creditos">
-                <h6>Créditos</h6>
+                <h5>Créditos</h5>
                 <p>© LAGaEC. Imágenes de las obras artísticas de dominio público,
                     <a href="https://www.metmuseum.org/art/collection/search#!?searchField=All&showOnly=openAccess&sortBy=relevance&offset=0&pageSize=0">The Metropolitan Museum</a>.
                     Fotografías, <a href="https://unsplash.com">Unsplash</a>
                     Actividad para comprobar la Accesibilidad Web, para el módulo de Diseño de Interfaces Web.
                     IES Rafael Alberti - 2022/2023</p>
             </div>
+        
         </footer>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
