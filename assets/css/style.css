@@ -201,8 +201,8 @@ h3 {
 
 .donar-cabecera h1,
 .detalle-cabecera  h1{
-    color: #fff;
     background: #48C9B0;
+    color: #1F1F1F;
 }
 
 .detalle-cabecera  h2, .detalle-cabecera span{
