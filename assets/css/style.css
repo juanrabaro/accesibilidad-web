@@ -23,7 +23,9 @@ a{
 a:hover{
     color: #6c757d ;
 }
-
+.falso-h3 {
+    font-size: 28px;
+}
 h3{
     color: #48C9B0 ;
 }
